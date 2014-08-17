@@ -19,11 +19,9 @@ The image assumes that your `node` application:
 ## Usage
 
 Interactive mode:
-```
-docker run -i -t -p 8080:8080 -e "GIT_REPO=https://github.com/your-git-repo" mahnunchik/nodejs-runtime
-``` 
+
+	docker run -i -t -p 8080:8080 -e "GIT_REPO=https://github.com/your-git-repo" mahnunchik/nodejs-runtime
     
 Daemon mode:
-```
-docker run -d -p 8080:8080 -e "GIT_REPO=https://github.com/your-git-repo" mahnunchik/nodejs-runtime
-```
+
+	docker run -d -p 8080:8080 -e "GIT_REPO=https://github.com/your-git-repo" mahnunchik/nodejs-runtime
